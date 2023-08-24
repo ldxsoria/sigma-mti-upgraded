@@ -1,6 +1,6 @@
 server {
-    listeon 80;
-    server_name ${DOMAIN}. www.${DOMAIN};
+    listen 80;
+    server_name ${DOMAIN} www.${DOMAIN};
 
     location /.well-known/acme-challenge/ {
         root /vol/www/;
