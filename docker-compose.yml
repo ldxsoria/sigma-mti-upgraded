@@ -9,5 +9,5 @@ services:
       - ./app:/app
     ports:
       - 8000:8000
-    enviroment:
+    environment:
       - DJANGO_DEBUG=1
